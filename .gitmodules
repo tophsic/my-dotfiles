@@ -1,0 +1,3 @@
+[submodule ".vim/pathogen.vim"]
+	path = .vim/pathogen.vim
+	url = git@github.com:vim-scripts/pathogen.vim.git
