@@ -2,3 +2,5 @@
 !.gitignore
 !.vimrc
 !.vim/*
+!.gitconfig
+!.gitignore_global
