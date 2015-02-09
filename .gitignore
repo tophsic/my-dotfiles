@@ -5,3 +5,4 @@
 !.gitconfig
 !.gitignore_global
 !.i3/*
+!.tmux.conf
