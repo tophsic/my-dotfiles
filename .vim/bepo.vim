@@ -63,6 +63,8 @@ noremap gt gj
 noremap gb gT
 noremap gé gt
 
+let g:buffergator_keep_old_mru_switching_keymaps = 1
+
 " <> en direct
 noremap « <
 noremap » >
