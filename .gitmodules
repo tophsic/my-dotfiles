@@ -28,3 +28,9 @@
 [submodule ".vim/bundle/vim-coffee-script"]
 	path = .vim/bundle/vim-coffee-script
 	url = https://github.com/vim-scripts/vim-coffee-script.git
+[submodule ".vim/bundle/import-js"]
+	path = .vim/bundle/import-js
+	url = https://github.com/trotzig/import-js.git
+[submodule ".vim/bundle/vdebug"]
+	path = .vim/bundle/vdebug
+	url = https://github.com/joonty/vdebug.git
