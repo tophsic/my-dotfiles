@@ -1,6 +1,11 @@
 " Général {{{
     let vimfiles=$HOME . "/.vim"
 
+    let before_plugins=vimfiles . "/before_plugins.vim"
+    if filereadable(before_plugins)
+        exec "source " . before_plugins
+    endif
+
     execute pathogen#infect()
 
     " Affiche la limite de 80 caractères
@@ -102,4 +107,3 @@ if filereadable(local_vim)
     exec "source " . local_vim
 endif
 " }}}
-
