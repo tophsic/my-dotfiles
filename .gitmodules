@@ -19,9 +19,6 @@
 [submodule ".vim/bundle/vim-snippets"]
 	path = .vim/bundle/vim-snippets
 	url = https://github.com/honza/vim-snippets.git
-[submodule ".vim/bundle/checksyntax_vim"]
-	path = .vim/bundle/checksyntax_vim
-	url = https://github.com/tomtom/checksyntax_vim.git
 [submodule ".vim/bundle/vim-coffee-script"]
 	path = .vim/bundle/vim-coffee-script
 	url = https://github.com/vim-scripts/vim-coffee-script.git
@@ -34,3 +31,6 @@
 [submodule ".vim/bundle/nerdtree"]
 	path = .vim/bundle/nerdtree
 	url = https://github.com/scrooloose/nerdtree.git
+[submodule ".vim/bundle/syntastic"]
+	path = .vim/bundle/syntastic
+	url = https://github.com/scrooloose/syntastic.git
