@@ -137,8 +137,14 @@ bindsym $mod+o mode "resize"
 # finds out, if available)
 bar {
     status_command i3status --config ~/.i3/status.conf
+#    i3bar_command ~/.i3/bar/i3_bar.sh
 }
-
+#bar {
+#    i3bar_command i3bar
+#
+#    status_command python /usr/lib/python2.7/dist-packages/powerline/bindings/i3/powerline-i3.py
+#    font pango:PowerlineFont 12
+#}
 set $mode_system System (l) lock, (e) logout, (s) suspend, (h) hibernate, (r) reboot, (Shift+s) shutdown
 mode "$mode_system" {
 	bindsym l exec --no-startup-id i3exit lock, mode "default"
