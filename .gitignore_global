@@ -4,3 +4,4 @@ _book
 /tags/
 /.tmp/
 /node_modules
+*.pyc
