@@ -2,3 +2,5 @@
 *.swp
 _book
 /tags/
+/.tmp/
+/node_modules
