@@ -6,6 +6,11 @@
         exec "source " . before_plugins
     endif
 
+    let before_plugins=vimfiles . "/before_plugins_bepo.vim"
+    if filereadable(before_plugins)
+        exec "source " . before_plugins
+    endif
+
     execute pathogen#infect()
 
     " Affiche la limite de 80 caractères
