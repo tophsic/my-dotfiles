@@ -20,3 +20,5 @@ alias grepxml='grep -R --color -n --include="*.xml"'
 
 alias brightness='sudo /home/christophe/bin/brightness'
 alias vim='vim --servername local'
+
+alias notify='notify-send -t 1000 "Last command" "Return code $?"'
