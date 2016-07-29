@@ -22,3 +22,7 @@ alias brightness='sudo /home/christophe/bin/brightness'
 alias vim='vim --servername local'
 
 alias notify='notify-send -t 1000 "Last command" "Return code $?"'
+alias gs='git status'
+alias gc='git checkout'
+alias g='git'
+alias gp='git pull --rebase'
