@@ -7,8 +7,8 @@ alias vup="vagrant up"
 alias vhalt="vagrant halt"
 alias vssh="vagrant ssh"
 
-alias find-~="find -name '*~'"
-alias find-sw="find -regex '.*\.sw[p-q]'"
+alias find-~="find . -name '*~'"
+alias find-sw="find . -regex '.*\.sw[p-q]'"
 
 #alias grep='grep --exclude="*~"'
 alias grepphp='grep -R --color -n --include="*.php"'
